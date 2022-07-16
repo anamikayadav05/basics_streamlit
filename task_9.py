@@ -4,6 +4,7 @@ import streamlit as st
 st.title('Dummy dataframe')
 #creating an empty dataframe of columns of original data
 titanic = pd.read_csv("https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv")
+st.image('https://upload.wikimedia.org/wikipedia/commons/d/d4/Titanic_II.jpg')
 columns = titanic.columns
 dummy_df = pd.DataFrame(columns = columns)
 #adding rows in empty dataframe
